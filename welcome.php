@@ -9,10 +9,11 @@
 include('checkLogin.php');
 
 echo "<div class='container'>
-<p>Welcome, take the opportunity to learn a little about Uruguay</p>
-<a href='https://gfmachad.github.io/Parallax-project/'>Parallax Uruguai!</a>
-<br>
-<a href='logout.php'>LOGOUT</a>
+<p>Welcome, take the opportunity to learn a little about Uruguay - </p>
+
+<a href='https://gfmachad.github.io/Parallax-project/'> Parallax Uruguai! </a>
+
+<a href='logout.php'> - LOGOUT</a>
 
 </div>"
 

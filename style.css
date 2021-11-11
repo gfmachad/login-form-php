@@ -1,3 +1,8 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 body{
   background: #FFF;
   font-family: 'Roboto', sans-serif;
@@ -5,39 +10,55 @@ body{
   color: #444;
 }
 
+
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
+  height: 100vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form{ 
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  background-color: #6e72fc;
+  background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
 }
 
 input {
-  width:10rem;
+  width:20rem;
   font-size:1.2rem;
-  height:1.5rem;
-	margin:  .5rem;
-  border-color:#9A13C2;
+  height:2rem;
+	margin:  1rem;
+  border:none;
+  border-radius: 5px;
+
 	color: #666675;
 	padding: 0 .75rem;
   outline: none;
 	font-weight: 400;
 
+  
 }
 
 button{
-  width:5rem;
+  /* background: #ad1deb; */
+  width:20rem;
   font-size:1.2rem;
+  font-weight: bold;
   font-family: 'Roboto', sans-serif;
   height:1.8rem;
-	background:#9A13C2;
-  border: none;
+  border-radius: 5px;
+  border:none;
   cursor: pointer;
 	transition: filter 0.2s;
   outline: none;
+	margin:  1rem;
+  color:#ad1deb;
 
 }
 button:hover {
@@ -48,13 +69,10 @@ a{
   color: inherit;
 	text-decoration: none;
   border-bottom: 1px solid #9A13C2;
-  /* border-style: dashed; */
 }
 a:hover{
   color:#9A13C2;
 }
-
-
 
 .error{
   color:#9A13C2;
